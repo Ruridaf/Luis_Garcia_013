@@ -1,0 +1,67 @@
+h2{
+    text-align: center;
+}
+
+.mostrador{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.25);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 5px 8px 0px rgba(0, 0, 0, .3);
+}
+
+.ecra{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#ecra{
+    font-size: 30px;
+    color: red;
+    text-align: right;
+}
+
+.simbolo{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.botoes{
+    background-color: rgba(128, 128, 128, 0.90);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 5px 1px 5px;
+}
+
+button{
+    width: 40px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 6px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, .9);
+}
+
+.saida{
+    width: fit-content;
+    min-width: 250px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#saida{
+    margin-top: 10px;
+}
