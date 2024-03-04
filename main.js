@@ -17,7 +17,7 @@ function digitar(digito){
     //executar
 
     //1ª alteraçao: limita a funçao a 14 caracteres
-    if (ecra.innerHTML.length >= 14){
+    if (ecra.innerHTML.length >= 12){
         return;
     }
 
